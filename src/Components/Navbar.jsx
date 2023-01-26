@@ -18,7 +18,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           className='home'
-          
+          onClick={() => setIsMobile(!isMobile)}
         >
           <h4> Home </h4>
         </Link>
@@ -28,6 +28,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           className='about'
+          onClick={() => setIsMobile(false)}
         >
           <h4> About </h4>
         </Link>
@@ -37,6 +38,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           className='projects'
+          onClick={() => setIsMobile(false)}
         >
           <h4> Projects </h4>
         </Link>
@@ -47,6 +49,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           className='skills'
+          onClick={() => setIsMobile(false)}
         >
           <h4> Skills </h4>
         </Link>
@@ -57,6 +60,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           className='contact'
+          onClick={() => setIsMobile(false)}
         >
           <h4> Contact </h4>
         </Link>
