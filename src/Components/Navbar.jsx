@@ -18,7 +18,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           className='home'
-          onClick={() => setIsMobile(!isMobile)}
+          onClick={() => setIsMobile(false)}
         >
           <h4> Home </h4>
         </Link>

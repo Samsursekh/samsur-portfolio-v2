@@ -1,8 +1,16 @@
-import { Button, Container, Heading, HStack, Image, SimpleGrid, Stack, Text } from "@chakra-ui/react";
+import {
+  Button,
+  Container,
+  Heading,
+  Image,
+  SimpleGrid,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
 import React from "react";
 import { FaDownload } from "react-icons/fa";
-import resumeIcon from "../Assets/resumeIcon.jpg"
-import resume from "../Assets/Samsur sekh resume.pdf"
+import resumeIcon from "../Assets/resumeIcon.jpg";
+import resume from "../Assets/Samsur sekh resume.pdf";
 const About = () => {
   return (
     <SimpleGrid
@@ -12,12 +20,12 @@ const About = () => {
       pb={"40px"}
     >
       <Container>
-        <Stack display='flex' alignItems='center'>
+        <Stack display="flex" alignItems="center">
           <Heading
-            color='white'
-            paddingBottom='10px'
-            borderBottomWidth='7px'
-            borderBottomColor='yellow'
+            color="white"
+            paddingBottom="10px"
+            borderBottomWidth="7px"
+            borderBottomColor="yellow"
           >
             About Me
           </Heading>
@@ -29,30 +37,39 @@ const About = () => {
             take the the responsibility of a product.
           </Text>
         </Stack>
-      </Container>
-      <Container>
-        <Stack display='flex' alignItems='center'>
-          <Text fontSize='3xl' color='yellow' fontFamily='fantasy'>Why Choose Me?  🤔</Text>
-          <Image width='15rem' src={resumeIcon} alt="resumeIcon"/>
-        </Stack>
-        <HStack margin="auto" display='flex' justifyContent={'center'} mt="20px">
-          <a
+        <Stack mt="20px">
+          <Button
+            as="a"
+            target="_blank"
             href={resume}
             margin="auto"
             download={true}
-            target="_blank"
-            rel="noreferrer"
+            fontWeight="800"
+            color="blue"
+            borderColor="blue"
+            rightIcon={<FaDownload />}
           >
-            <Button
-              fontWeight="800"
-              color="blue"
-              borderColor="blue"
-              rightIcon={<FaDownload />}
-            >
-              RESUME
-            </Button>
-          </a>
-        </HStack>
+            GET RESUME
+          </Button>
+        </Stack>
+      </Container>
+      <Container>
+        <Stack display="flex" alignItems="center" mt="50px">
+          <Text fontSize="3xl" color="yellow" fontFamily="fantasy">
+            Why Choose Me? 🤔
+          </Text>
+          <Image width="15rem"  borderRadius='full' src={resumeIcon} alt="resumeIcon" />
+          <Stack textAlign="left">
+            <Text color="white" mt="50px" fontWeight="700" listStyleType="none">
+              <li>👉 1200+ Hours of Full Stack Development</li>
+              <li>👉 500+ Hours of DSA</li>
+              <li>👉 200+ Hours of Soft Skill</li>
+              <li>👉 50+ Mini Project</li>
+              <li>👉 5+ Collaborative Project</li>
+              <li>👉 Many Other Project</li>
+            </Text>
+          </Stack>
+        </Stack>
       </Container>
     </SimpleGrid>
   );
