@@ -1,8 +1,10 @@
 import { Container, Heading, Image, SimpleGrid, Stack } from "@chakra-ui/react";
 import React from "react";
+import {MotionAnimate} from "react-motion-animate";
 
 const Statistics = () => {
   return (
+    
     <>
       <Stack display="flex" alignItems="center" bgColor="#000C66">
         <Heading
@@ -16,6 +18,11 @@ const Statistics = () => {
       </Stack>
 
       <SimpleGrid minChildWidth="300px" bgColor="#000C66" pb={"40px"}>
+      <MotionAnimate  animation='fadeInUp'
+    reset={true}
+    distance={200}
+    delay={0.5}
+    speed={1}>
         <Container>
           <Stack mt="20px">
             <Image
@@ -24,6 +31,12 @@ const Statistics = () => {
             />
           </Stack>
         </Container>
+        </MotionAnimate>
+        <MotionAnimate  animation='fadeInUp'
+    reset={true}
+    distance={200}
+    delay={0.5}
+    speed={1}>
         <Container>
           <Stack mt="20px">
             <Image
@@ -32,6 +45,7 @@ const Statistics = () => {
             />
           </Stack>
         </Container>
+        </MotionAnimate>
       </SimpleGrid>
     </>
   );
