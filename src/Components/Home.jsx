@@ -42,9 +42,9 @@ const Home = () => {
             alt="Samsur's Image"
           />
           <Stack>
-            <a href="https://github.com/Samsursekh"><BsGithub color="white" fontSize="30px" /></a>
-            <a href="https://twitter.com/SamsurSekh1"><BsTwitter color="white" fontSize="30px" /></a>
-            <a href="https://www.linkedin.com/in/samsur-sekh-b6961a22b/"><BsLinkedin color="white" fontSize="30px" /></a>
+            <a href="https://github.com/Samsursekh" rel="noreferrer" target="_blank"><BsGithub color="white" fontSize="30px" /></a>
+            <a href="https://twitter.com/SamsurSekh1" rel="noreferrer" target="_blank"><BsTwitter color="white" fontSize="30px" /></a>
+            <a href="https://www.linkedin.com/in/samsur-sekh-b6961a22b/" rel="noreferrer" target="_blank"><BsLinkedin color="white" fontSize="30px" /></a>
           </Stack>
         </Box>
       </Container>
