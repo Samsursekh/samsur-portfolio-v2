@@ -1,70 +1,87 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio Website
 
-## Available Scripts
+A portfolio website using ReactJS and Chakra UI. Built this within 5 days. Where any one can see all the projects and they can message also if needed. Other than that any one can download resume in 1 click.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots of the application
 
-### `npm test`
+![App Screenshot](https://raw.githubusercontent.com/Samsursekh/Samsursekh.github.io/c6e704af090f0691fded717d52963b1d0d1d966b/src/Assets/ReadmeImages/1.jpeg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![App Screenshot](https://raw.githubusercontent.com/Samsursekh/Samsursekh.github.io/c6e704af090f0691fded717d52963b1d0d1d966b/src/Assets/ReadmeImages/3.jpeg)
 
-### `npm run build`
+![App Screenshot](https://raw.githubusercontent.com/Samsursekh/Samsursekh.github.io/c6e704af090f0691fded717d52963b1d0d1d966b/src/Assets/ReadmeImages/6.jpeg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![App Screenshot](https://raw.githubusercontent.com/Samsursekh/Samsursekh.github.io/c6e704af090f0691fded717d52963b1d0d1d966b/src/Assets/ReadmeImages/2.jpeg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![App Screenshot](https://raw.githubusercontent.com/Samsursekh/Samsursekh.github.io/c6e704af090f0691fded717d52963b1d0d1d966b/src/Assets/ReadmeImages/4.jpeg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![App Screenshot](https://raw.githubusercontent.com/Samsursekh/Samsursekh.github.io/c6e704af090f0691fded717d52963b1d0d1d966b/src/Assets/ReadmeImages/Web%20capture_30-1-2023_194056_samsursekh.netlify.app.jpeg)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tech Stack
 
-## Learn More
+**Frontend:** React, Chakra Ui, CSS , Styled-Components ,npm packages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Run Locally
 
-### Analyzing the Bundle Size
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  git clone https://link-to-project
+```
 
-### Making a Progressive Web App
+Go to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  cd my-project
+```
 
-### Advanced Configuration
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+  npm install
+```
 
-### Deployment
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+  npm run start
+```
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://samsursekh.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samsur-sekh-b6961a22b/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SamsurSekh1)
+
+
+
+
+## 🛠 Skills
+Javascript, HTML, CSS... ReactJS, Redux, Nodejs, MongoDb ,ExpressJs, Chakra Ui, Styled Components
+
+
+
+
+
+
+
+## Authors
+
+- [@Samsur Sekh](https://github.com/Samsursekh)
+If you have any query or feedback please feel free to ask.
+- [samsur.sekh.masai@gmail.com](samsur.sekh.masai@gmail.com)
+
+
