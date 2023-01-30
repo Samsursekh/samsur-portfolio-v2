@@ -9,7 +9,7 @@ import Project from "./Components/Project";
 import Skills from "./Components/Skills";
 import Statistics from "./Components/Statistics";
 
-function App() {
+function App(){
   return (
     <div className="App">
       <Navbar />
