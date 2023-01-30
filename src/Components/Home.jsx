@@ -15,6 +15,7 @@ import { FaDownload } from "react-icons/fa";
 import styled from "styled-components";
 import resume from "../Assets/Samsur sekh resume.pdf";
 import samsur from "../Assets/samsur.png";
+import hand from "../Assets/hand.png";
 
 const StyledContainer = styled.div`
   font-size: 1.8em;
@@ -61,7 +62,7 @@ const Home = () => {
             Hello
             <Image
               boxSize="50px"
-              src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/waving-hand_1f44b.png"
+              src={hand}
               alt="hand"
             />
             I'm
