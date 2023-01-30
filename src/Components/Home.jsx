@@ -34,18 +34,36 @@ const Home = () => {
       <Container bgColor="#000C66" m={"auto"}>
         <Box bg="#000C66" mt={"30px"}>
           <Image
-           borderRadius={'10px'}
-           boxShadow="rgba(10, 10, 10, 100) 0px 19px 38px, rgba(255,255,255, 0.2) 0px 15px 12px"
-            width='12rem'
+            borderRadius={"10px"}
+            boxShadow="rgba(10, 10, 10, 100) 0px 19px 38px, rgba(255,255,255, 0.2) 0px 15px 12px"
+            width="12rem"
             src={samsur}
             // src="https://icon-library.com/images/admin-user-icon/admin-user-icon-24.jpg"
             m="auto"
             alt="Samsur's Image"
           />
           <Stack>
-            <a href="https://github.com/Samsursekh" rel="noreferrer" target="_blank"><BsGithub color="white" fontSize="30px" /></a>
-            <a href="https://twitter.com/SamsurSekh1" rel="noreferrer" target="_blank"><BsTwitter color="white" fontSize="30px" /></a>
-            <a href="https://www.linkedin.com/in/samsur-sekh-b6961a22b/" rel="noreferrer" target="_blank"><BsLinkedin color="white" fontSize="30px" /></a>
+            <a
+              href="https://github.com/Samsursekh"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <BsGithub color="white" fontSize="30px" />
+            </a>
+            <a
+              href="https://twitter.com/SamsurSekh1"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <BsTwitter color="white" fontSize="30px" />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/samsur-sekh-b6961a22b/"
+            >
+              <BsLinkedin color="white" fontSize="30px" />
+            </a>
           </Stack>
         </Box>
       </Container>
@@ -60,11 +78,7 @@ const Home = () => {
             justifyContent="space-evenly"
           >
             Hello
-            <Image
-              boxSize="50px"
-              src={hand}
-              alt="hand"
-            />
+            <Image boxSize="50px" src={hand} alt="hand" />
             I'm
           </Text>
           <Text as="mark" fontSize="4xl">
@@ -89,7 +103,12 @@ const Home = () => {
             functionality.
           </Text>
         </Stack>
-        <HStack margin="auto" display='flex' justifyContent={'center'} mt="20px">
+        <HStack
+          margin="auto"
+          display="flex"
+          justifyContent={"center"}
+          mt="20px"
+        >
           <a
             href={resume}
             margin="auto"
