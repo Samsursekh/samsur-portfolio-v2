@@ -20,17 +20,18 @@ import { ImLocation2 } from "react-icons/im";
 
 const Contact = () => {
   const toast = useToast();
-  const [userData, setUserData] = useState({
+  let initialData = {
     name: "",
     email: "",
     subject: "",
     message: "",
-  });
+  }
+  const [userData, setUserData] = useState(initialData);
 
   const handleSend = () => {
     var { name, email, subject, message } = userData;
     if (name !== "" && email !== "" && subject !== "" && message !== "") {
-      // console.log(userData);
+      console.log(userData);
 
       emailjs
         .send(
@@ -51,8 +52,9 @@ const Contact = () => {
             });
           },
           (error) => {
+            console.log(error, "Error is what??")
             toast({
-              title: "Something went wrong",
+              title: `${error.text}`,
               status: "error",
               duration: 1000,
               isClosable: true,
@@ -60,7 +62,7 @@ const Contact = () => {
           }
         );
 
-      // setUserData("")
+      setUserData(initialData);
     } else {
       toast({
         title: "Enter All The Credentials",
@@ -91,19 +93,19 @@ const Contact = () => {
         pt='30px'
         textAlign="center"
       >
-    
+
         <Box color="white" bgColor="#000C66">
           <HStack display="flex" justifyContent="center">
             <BsFillTelephoneFill fontSize="2rem" color="white" />
           </HStack>
           <Text fontSize="2xl">PHONE</Text>
           <Text fontSize="1xl">Contact me</Text>
-          <Text fontSize="1xl"  _hover={{
-              fontWeight: "bold",
-              textDecoration:"underline"
-            }}>
+          <Text fontSize="1xl" _hover={{
+            fontWeight: "bold",
+            textDecoration: "underline"
+          }}>
             <a href="tel:9339316583" rel="noreferrer" target="_blank">
-             +91 9339316583
+              +91 9339316583
             </a>
           </Text>
         </Box>
@@ -113,13 +115,13 @@ const Contact = () => {
           </HStack>
           <Text fontSize="2xl">EMAIL</Text>
           <Text fontSize="1xl">Contact me on email address</Text>
-          <Text fontSize="1xl"  _hover={{
-              fontWeight: "bold",
-              textDecoration:"underline"
-            }}>
-           
+          <Text fontSize="1xl" _hover={{
+            fontWeight: "bold",
+            textDecoration: "underline"
+          }}>
+
             <a href="mailto: samsur.sekh.masai@gmail.com" rel="noreferrer" target="_blank">
-            samsur.sekh.masai@gmail.com
+              samsur.sekh.masai@gmail.com
             </a>
           </Text>
         </Box>
@@ -129,12 +131,12 @@ const Contact = () => {
           </HStack>
           <Text fontSize="2xl">LOCATION</Text>
           <Text fontSize="1xl">Kolkata , West Bengal</Text>
-          <Text fontSize="1xl"  _hover={{
-              fontWeight: "bold",
-              textDecoration:"underline"
-            }}>
+          <Text fontSize="1xl" _hover={{
+            fontWeight: "bold",
+            textDecoration: "underline"
+          }}>
             <a href="https://www.google.co.in/maps/place/Kolkata,+West+Bengal/@22.6759958,88.3297288,99193m/data=!3m2!1e3!4b1!4m5!3m4!1s0x39f882db4908f667:0x43e330e68f6c2cbc!8m2!3d22.572646!4d88.363895?hl=en&authuser=0" rel="noreferrer" target="_blank">
-            View on Google Map
+              View on Google Map
             </a>
           </Text>
         </Box>
